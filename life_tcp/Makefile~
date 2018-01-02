@@ -1,0 +1,5 @@
+all: worker master
+worker: worker.c
+		gcc worker.c -lpthread
+master: master.c
+		gcc master.c -lpthread

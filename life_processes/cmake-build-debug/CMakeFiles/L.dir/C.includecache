@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nikolai/Life(P)/live.c
+pthread.h
+-
+stdio.h
+-
+semaphore.h
+-
+unistd.h
+-
+sys/mman.h
+-
+fcntl.h
+-
+

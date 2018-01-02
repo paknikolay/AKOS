@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   -pthread -lrt CMakeFiles/L.dir/live.c.o  -o L -lrt 
